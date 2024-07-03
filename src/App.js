@@ -78,7 +78,7 @@ const App = () => {
             <hr />
 
             <Experience />
-        
+            
         </Container>
       </div>
       <div id="projects">
@@ -86,7 +86,7 @@ const App = () => {
          
            <hr/>
             <TimeLine />
-         
+            
         </Container>
       </div>
      

@@ -1,7 +1,9 @@
 import React from "react";
 import Jumbotron from "react-bootstrap/Jumbotron";
 import Card from "react-bootstrap/Card";
-import logo from "../../assets/img/experience/logo.png";
+import accenture from "../../assets/img/experience/accenture-3.svg";
+import deloitte from "../../assets/img/experience/deloitte.svg";
+
 
 import Tilt  from 'react-tilt'
 import "./experience.styles.css";
@@ -21,7 +23,7 @@ const Experience = () => {
               <Card.Img
                 variant="top"
                 className="img-resize"
-                src={logo}
+                src={deloitte}
                 alt="Olatechbus"
               />
             </Card.Header>
@@ -99,7 +101,7 @@ const Experience = () => {
               <Card.Img
                 variant="top"
                 className="img-resize"
-                src={logo}
+                src={accenture}
                 alt="Olatechbus logo"
               />
             </Card.Header>
